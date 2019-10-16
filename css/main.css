@@ -1,5 +1,5 @@
-#head:hover #left-ear,
-#head:hover #right-ear {
+#bear:hover #left-ear,
+#bear:hover #right-ear {
   transform: translateY(-10px);
 }
 
@@ -22,4 +22,5 @@
   100% {
     transform: translateX(10px);
   }
+
 }
