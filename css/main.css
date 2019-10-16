@@ -7,3 +7,19 @@
 #right-ear {
   transition: all .5s linear;
 }
+
+#left-eye,
+#right-eye {
+  animation: move-eyes 3s linear infinite alternate;
+}
+
+@keyframes move-eyes {
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
